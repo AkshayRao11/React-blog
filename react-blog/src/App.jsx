@@ -7,6 +7,8 @@ import Hollywood from './components/Hollywood';
 import Food from './components/Food';
 import Technology from './components/Technology';
 import Navbar from './components/Navbar';
+import Details from './components/Details';
+import'./App.css'
 
 const App = () => {
   return (
@@ -19,6 +21,7 @@ const App = () => {
         <Route path="/technology" element={<Technology />} />
         <Route path="/fitness" element={<Fitness />} />
         <Route path="/food" element={<Food />} />
+        <Route path="/details" element={<details/>} />
       </Routes>
     </>
   );
